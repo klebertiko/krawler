@@ -33,7 +33,6 @@ class KSpider {
             }
 
             this.crawl(currentUrl) // Lots of stuff happening here. Look at the crawl method in
-            // SpiderLeg
             val success = this.searchForWord(searchWord)
 
             if (success) {
